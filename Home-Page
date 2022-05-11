@@ -1,0 +1,183 @@
+<<!DOCTYPE html>
+
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#example -->
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon&display=swap" rel="stylesheet">
+
+    <title>Slay the Spire Fanpage</title>
+
+    <link href="./css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+      <!-- <img id="img-banner" src="./img/sts-title-large.png" alt="Slay the Spire Banner"> -->
+      <img id="img-banner" src="./img/sts-title-cropped.png" alt="Slay the Spire Banner">
+      <!-- <img id="img-banner" src="/img/sts-title.png" alt=Slay the Spire Banner"> -->
+      
+      <h1>Slay the Spire Fanpage</h1>
+
+      <p>A template for a "Slay the Spire" Fanpage</p>
+
+      <nav>        
+        <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
+        <a class="button-nav" href="#text_elements">Text Elements</a>
+        <a class="button-nav" href="#combined_elements">Combined Elements</a>
+        <a class="button-nav" href="#citations">Citations</a>
+      </nav>
+	  </header>
+
+    <section id="flex-box">
+
+      <!-- INTERACTIVE ELEMENTS SECTION // -->
+      <section id="interactive_elements">
+        <h2>Interactive Elements</h2>
+
+        <section class="element">
+          <a href="https://slay-the-spire.fandom.com/wiki/Slay_the_Spire_Wiki" target="_blank">Slay the Spire Official Wiki</a>
+        </section>
+
+        <!-- Default Button styling section -->
+        <section class="element">
+
+          <h3>Navigation Link</h3>
+
+          <h4>Sample code:</h4>
+          <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+
+          <h4>Rendered element:</h4>
+          <a class="button-nav" href="#">Default Button</a>
+
+        </section>
+
+
+
+        <section class="element">
+          <h3>Text Input Field with Label</h3>
+          <form>
+            <fieldset>
+              <label for="character-form">
+                Favorite Card
+                <input type="text" id="character-form" placeholder="Enter a Character">
+              </label>
+            </fieldset>
+            <fieldset>
+              <input type="button" class="button-submit" value="Submit">
+              <label for="save-favorite">
+                <input type="checkbox" id="save-favorite"> 
+                Save as favorite
+              </label>
+            </fieldset>
+          </form>
+        </section>
+
+
+
+        <section class="element">
+          <h3>Image as a Link</h3>
+          <a href="https://slay-the-spire.fandom.com/wiki/Ironclad" target="_blank">
+            <img class="png-icon" src="./img/ironclad.png" alt="The Ironclad">
+          </a>
+        </section>
+
+
+      </section>
+      <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+      <!-- CARD ELEMENTS SECTION // -->
+      <section id="text_elements">
+        <h2>Text Elements</h2>
+
+        <section class="element">
+          <h3>Cards</h3>
+            <h2>This is an Ice Clad</h2>
+            <h3>This is an Hit all</h3>
+            <h4>This is an pin</h4>
+            <h5>This is an Multi-tag</h5>
+        </section>
+
+        <section class="element">
+          <h3>Paragraphs</h3>
+          <p><a href="https://slay-the-spire.fandom.com/wiki/Slay_the_Spire_Wiki" target="_blank">Slay the Spire</a> is a game primarily about survival, collecting cards, and building a powerful deck to wipe out your foes. Good luck and happy deckbuilding!</p>
+        </section>
+
+        <section class="element">
+
+          <h3>Numbered Lists</h3>
+          <figure>
+            <figcaption>Playable Characters</figcaption>
+            <ol>
+              <li>The Ironclad</li>
+              <li>The Silent</li>
+              <li>The Defect</li>
+              <li>The Watcher</li>
+            </ol>
+          </figure>
+
+        </section>
+
+      </section>
+      <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+      <!-- COMBINED ELEMENTS SECTION // -->
+      <section id="combined_elements">
+        <h2>Combined Elements</h2>
+
+        <section class="element">
+          <h3>Main Navigation</h3>
+          <nav>
+            <a class="button-nav" href="#">Home</a>
+            <a class="button-nav" href="#">Cards</a>
+            <a class="button-nav" href="#">Guide</a>
+          </nav>
+        </section>
+
+        <section class="element">
+          <h3>Product/Service Listing</h3>
+          <p>This serves as a wiki for fans of the deckbuilding game 'Slay the Spire'. I plan to include stats on the character, cards, and items in the game. If possible, maybe even the beginnings of a guide.</p>
+          <a href="https://coolors.co/a57c00-2d0203-162331-474242-f8f8ff">Sample Color Palette</a>
+          <figure>
+            <h4>Example wiki link</h4>
+            <a href="https://slay-the-spire.fandom.com/wiki/Ironclad" target="_blank">
+              <img class="png-icon" src="./img/ironclad.png" alt="The Ironclad">
+            </a>
+            <figcaption>The Ironclad</figcaption>
+            <p>Stats... etc.</p>
+          </figure>
+        </section>
+
+
+      </section>
+      <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+      <section id="citations">
+        <h2>Citations</h2>
+
+        <ul>
+          <li>Mega Crit Games. 2019. <strong>'Slay the Spire' Title Art [Image]</strong>. Retrieved from <a href="https://slay-the-spire.fandom.com/wiki/Slay_the_Spire?file=SsColor.png">https://slay-the-spire.fandom.com/wiki/Slay_the_Spire?file=SsColor.png</a></li>
+          <li>Mega Crit Games. 2019. <strong>The Ironclad [Image]</strong>. Retrieved from <a href="https://slay-the-spire.fandom.com/wiki/Ironclad?file=Ironclad.png">https://slay-the-spire.fandom.com/wiki/Ironclad?file=Ironclad.png</a></li>
+          <li>Brenneise, Bruce. Illustrator. 2018. <strong>'Slay the Spire' Title Art [Image]</strong>. Retrieved from <a href="https://images2.alphacoders.com/901/thumb-1920-901142.jpg">https://images2.alphacoders.com/901/thumb-1920-901142.jpg</a></li>
+          <li>Pattreta, Julia. Designer. <strong>Kreon [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Kreon">https://fonts.google.com/specimen/Kreon</a></li>
+          <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        </ul>
+
+      </section>
+
+    </section>
+
+  </body>
+</html>
